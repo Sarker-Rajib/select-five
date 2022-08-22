@@ -1,0 +1,58 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Manrope', sans-serif;
+   box-sizing: border-box;
+}
+
+.main-heading{
+   font-family: 'Berkshire Swash', cursive;
+   font-weight: 400;
+   font-size: 75px;
+   color: #FF5E19;
+}
+
+@media(min-width: 1200px) {
+   header p {
+      white-space: pre-line;
+   }
+}
+
+.player-profile{
+   border: 1px solid rgba(238, 238, 238, 0.247);
+}
+
+.player-profile p{
+   color: #B3B3B3;
+}
+
+.bttn-select {
+   background: #015196;
+   color: #fff;
+   border-radius: 0;
+   padding: 10px 0;
+   border: 1px solid #015196;
+}
+.bttn-select.disabled{
+   background: #9fa7ad;
+   color: rgb(0, 0, 0);
+}
+
+.calculation p{
+   color: #AFAFAF;
+}
+
+input {
+   background: transparent;
+   color: #fff;
+   border: 1px solid #fff;
+   padding: 5px;
+}
+
+#sub-total{
+   color: #FF5E19;
+}
